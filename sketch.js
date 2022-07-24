@@ -145,7 +145,7 @@ function draw() {
       if (wall.x < 0) {
         wall.x = wall.width / 2;
 
-        if(score === 10)
+        if(score === 400)
         {
           mario.lives = mario.lives+1;
         }
